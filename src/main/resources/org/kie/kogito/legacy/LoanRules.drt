@@ -1,0 +1,14 @@
+/**
+*template maxAmount
+*
+*package org.kie.kogito.legacy;
+*
+*import org.kie.kogito.legacy.LoanApplication;
+*
+*template "power-for-gpu"
+*rule "rule@{row.rowNumber}" when
+*    $l: LoanApplication( applicant.age >= 20, deposit < 1000, amount <= 2000 )
+*then
+*    modify($l) { setApproved(true) };
+*end
+**/
